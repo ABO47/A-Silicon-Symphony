@@ -1,0 +1,17 @@
+mods/
+coremods/
+saves/
+logs/
+crash-reports/
+.cache/
+resourcify-temp/
+server-resource-packs/
+resourcepacks/
+shaderpacks/
+texturepacks/
+moonlight-global-datapacks/
+emojiful/
+usercache.json
+usernamecache.json
+local/
+screenshots/

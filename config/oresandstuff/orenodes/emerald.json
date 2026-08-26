@@ -1,0 +1,119 @@
+{
+  "id": "oresandstuff:emerald",
+  "name": "Emerald Node",
+  "output_item": "minecraft:emerald",
+  "drops": {
+    "minecraft:emerald": 100,
+    "minecraft:stone": 100,
+    "minecraft:end_stone": 100
+  },
+  "enabled": true,
+  "hardness": 180.0,
+  "base_rate_per_second": 0.25,
+  "scanner_color": "#3ECF6E",
+  "scanner_radius": 192,
+  "quality_min": 20.0,
+  "quality_max": 200.0,
+  "quality_visuals": [
+    {
+      "min": 20.0,
+      "max": 110.0,
+      "node_block": "minecraft:stone",
+      "visual_block": "minecraft:emerald_ore"
+    },
+    {
+      "min": 110.0,
+      "max": 200.0,
+      "node_block": "minecraft:end_stone",
+      "visual_block": "minecraft:emerald_ore"
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld",
+    "minecraft:the_end"
+  ],
+  "biomes": {
+    "peak": 70,
+    "windswept": 55,
+    "snowy_slopes": 45,
+    "meadow": 25,
+    "desert": 10,
+    "jungle": 10,
+    "cave": 15,
+    "end_highlands": 30,
+    "end_midlands": 30,
+    "the_end": 20,
+    "small_end_islands": 15,
+    "end_barrens": 15
+  },
+  "biome_overrides": {
+    "peak": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "windswept": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "snowy_slopes": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "meadow": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "desert": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "jungle": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "cave": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "end_highlands": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    },
+    "end_midlands": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    },
+    "the_end": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    },
+    "small_end_islands": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    },
+    "end_barrens": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    }
+  },
+  "min_nodes_per_chunk": 1,
+  "max_nodes_per_chunk": 2,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 180,
+  "placement_attempts": 2,
+  "cluster_radius": 2,
+  "scatter_count": 6,
+  "surface_spawn": true,
+  "min_y": 0,
+  "max_y": 63
+}

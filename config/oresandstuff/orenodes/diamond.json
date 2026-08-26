@@ -1,0 +1,139 @@
+{
+  "id": "oresandstuff:diamond",
+  "name": "Diamond Node",
+  "output_item": "minecraft:diamond",
+  "drops": {
+    "minecraft:diamond": 100,
+    "minecraft:stone": 100,
+    "minecraft:end_stone": 100
+  },
+  "enabled": true,
+  "hardness": 200.0,
+  "base_rate_per_second": 0.3,
+  "scanner_color": "#4DE1E1",
+  "scanner_radius": 192,
+  "quality_min": 20.0,
+  "quality_max": 200.0,
+  "quality_visuals": [
+    {
+      "min": 20.0,
+      "max": 110.0,
+      "node_block": "minecraft:stone",
+      "visual_block": "minecraft:diamond_ore"
+    },
+    {
+      "min": 110.0,
+      "max": 200.0,
+      "node_block": "minecraft:end_stone",
+      "visual_block": "minecraft:diamond_ore"
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld",
+    "minecraft:the_end"
+  ],
+  "biomes": {
+    "plains": 30,
+    "forest": 25,
+    "taiga": 25,
+    "snowy": 20,
+    "windswept": 20,
+    "desert": 10,
+    "swamp": 5,
+    "river": 25,
+    "ocean": 20,
+    "cave": 30,
+    "deep_dark": 20,
+    "end_highlands": 30,
+    "end_midlands": 25,
+    "the_end": 20,
+    "small_end_islands": 15,
+    "end_barrens": 15
+  },
+  "biome_overrides": {
+    "plains": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "forest": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "taiga": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "snowy": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "windswept": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "desert": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "swamp": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "river": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "ocean": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "cave": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "deep_dark": {
+      "quality_min": 20.0,
+      "quality_max": 80.0
+    },
+    "end_highlands": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    },
+    "end_midlands": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    },
+    "the_end": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    },
+    "small_end_islands": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    },
+    "end_barrens": {
+      "quality_min": 130.0,
+      "quality_max": 200.0,
+      "min_y": 0,
+      "max_y": 90
+    }
+  },
+  "min_nodes_per_chunk": 1,
+  "max_nodes_per_chunk": 2,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 180,
+  "placement_attempts": 2,
+  "cluster_radius": 2,
+  "scatter_count": 6,
+  "surface_spawn": true,
+  "min_y": 0,
+  "max_y": 63
+}

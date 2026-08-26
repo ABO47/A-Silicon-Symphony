@@ -1,0 +1,84 @@
+{
+  "id": "oresandstuff:iron",
+  "name": "Iron Node",
+  "output_item": "minecraft:raw_iron",
+  "drops": {
+    "minecraft:raw_iron": 100,
+    "minecraft:stone": 100,
+    "minecraft:deepslate": 100
+  },
+  "enabled": true,
+  "hardness": 80.0,
+  "base_rate_per_second": 0.6,
+  "scanner_color": "#D8D8D8",
+  "scanner_radius": 192,
+  "quality_min": 70.0,
+  "quality_max": 150.0,
+  "quality_visuals": [
+    {
+      "min": 70.0,
+      "max": 110.0,
+      "node_block": "minecraft:stone",
+      "visual_block": "minecraft:iron_ore"
+    },
+    {
+      "min": 110.0,
+      "max": 150.0,
+      "node_block": "minecraft:deepslate",
+      "visual_block": "minecraft:deepslate_iron_ore"
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": {
+    "windswept": 50,
+    "snowy_slopes": 45,
+    "peak": 40,
+    "meadow": 30,
+    "plains": 30,
+    "forest": 25,
+    "desert": 20,
+    "savanna": 15,
+    "swamp": 10,
+    "jungle": 10,
+    "ice": 35,
+    "grove": 20,
+    "mushroom": 15,
+    "beach": 35,
+    "shore": 30,
+    "river": 20
+  },
+  "biome_overrides": {
+    "snowy_slopes": {
+      "quality_min": 70.0,
+      "quality_max": 170.0,
+      "min_y": 0,
+      "max_y": 80,
+      "max_miners_per_node": 2,
+      "surface_spawn": true,
+      "placement_attempts": 1,
+      "min_spacing_blocks": 180
+    },
+    "beach": {
+      "quality_min": 20.0,
+      "quality_max": 90.0,
+      "min_y": -30,
+      "max_y": 20,
+      "max_miners_per_node": 1,
+      "surface_spawn": false,
+      "placement_attempts": 2,
+      "min_spacing_blocks": 120
+    }
+  },
+  "min_nodes_per_chunk": 3,
+  "max_nodes_per_chunk": 4,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 130,
+  "placement_attempts": 2,
+  "cluster_radius": 3,
+  "scatter_count": 8,
+  "surface_spawn": true,
+  "min_y": 0,
+  "max_y": 63
+}

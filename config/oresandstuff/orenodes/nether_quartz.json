@@ -1,0 +1,73 @@
+{
+  "id": "oresandstuff:nether_quartz",
+  "name": "Nether Quartz Node",
+  "output_item": "minecraft:quartz",
+  "drops": {
+    "minecraft:quartz": 100,
+    "minecraft:netherrack": 100,
+    "minecraft:nether_quartz_ore": 100
+  },
+  "enabled": true,
+  "hardness": 80.0,
+  "base_rate_per_second": 0.7,
+  "scanner_color": "#E8DFD6",
+  "scanner_radius": 192,
+  "quality_min": 60.0,
+  "quality_max": 160.0,
+  "quality_visuals": [
+    {
+      "min": 60.0,
+      "max": 110.0,
+      "node_block": "minecraft:netherrack",
+      "visual_block": "minecraft:nether_quartz_ore"
+    },
+    {
+      "min": 110.0,
+      "max": 160.0,
+      "node_block": "minecraft:nether_quartz_ore",
+      "visual_block": "minecraft:quartz_block"
+    }
+  ],
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "biomes": {
+    "nether_wastes": 50,
+    "basalt_deltas": 45,
+    "crimson_forest": 25,
+    "warped_forest": 25,
+    "soul_sand_valley": 20
+  },
+  "biome_overrides": {
+    "basalt_deltas": {
+      "quality_min": 60.0,
+      "quality_max": 160.0,
+      "min_y": 0,
+      "max_y": 60,
+      "max_miners_per_node": 2,
+      "surface_spawn": true,
+      "placement_attempts": 1,
+      "min_spacing_blocks": 180
+    },
+    "soul_sand_valley": {
+      "quality_min": 30.0,
+      "quality_max": 120.0,
+      "min_y": 0,
+      "max_y": 40,
+      "max_miners_per_node": 1,
+      "surface_spawn": false,
+      "placement_attempts": 2,
+      "min_spacing_blocks": 150
+    }
+  },
+  "min_nodes_per_chunk": 2,
+  "max_nodes_per_chunk": 3,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 120,
+  "placement_attempts": 2,
+  "cluster_radius": 3,
+  "scatter_count": 8,
+  "surface_spawn": true,
+  "min_y": 0,
+  "max_y": 63
+}

@@ -1,0 +1,50 @@
+{
+  "debug": {
+    "debugLogging": false
+  },
+  "animations": {
+    "uiAnimations": true,
+    "contextMenuAnimations": true,
+    "toolsMenuAnimations": true,
+    "minimapAnimations": true,
+    "questWindowAnimations": true,
+    "popupWindowAnimations": true,
+    "connectionAnimations": true,
+    "chapterSwitchAnimations": true
+  },
+  "canvas": {
+    "fullScreenMode": false,
+    "minimap": true,
+    "visualMinimap": true,
+    "readOnlyCanvasFocus": true,
+    "questEffectIcons": false,
+    "miniNotifications": false
+  },
+  "rewards": {
+    "autoClaimRewards": false
+  },
+  "hud": {
+    "completionHud": true,
+    "completionHudSound": true,
+    "completionHudDurationMs": 2600
+  },
+  "security": {
+    "commandRewards": true
+  },
+  "chunkClaims": {
+    "protectBreakPlace": true,
+    "protectInteraction": true,
+    "protectExplosions": true,
+    "protectMobGriefing": true,
+    "protectPvp": true,
+    "protectFire": true,
+    "maxClaimedChunks": 100,
+    "maxForceLoadedChunks": 100
+  },
+  "itemLocks": {
+    "blockUse": false,
+    "blockPickup": false,
+    "blockEquip": false,
+    "lockedTooltips": true
+  }
+}

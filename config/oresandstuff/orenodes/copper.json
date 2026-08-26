@@ -1,0 +1,80 @@
+{
+  "id": "oresandstuff:copper",
+  "name": "Copper Node",
+  "output_item": "minecraft:raw_copper",
+  "drops": {
+    "minecraft:raw_copper": 100,
+    "minecraft:stone": 100,
+    "minecraft:deepslate": 100
+  },
+  "enabled": true,
+  "hardness": 70.0,
+  "base_rate_per_second": 0.7,
+  "scanner_color": "#C97142",
+  "scanner_radius": 192,
+  "quality_min": 60.0,
+  "quality_max": 140.0,
+  "quality_visuals": [
+    {
+      "min": 60.0,
+      "max": 100.0,
+      "node_block": "minecraft:stone",
+      "visual_block": "minecraft:copper_ore"
+    },
+    {
+      "min": 100.0,
+      "max": 140.0,
+      "node_block": "minecraft:deepslate",
+      "visual_block": "minecraft:deepslate_copper_ore"
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": {
+    "desert": 50,
+    "badlands": 55,
+    "windswept": 35,
+    "peak": 30,
+    "savanna": 20,
+    "plains": 15,
+    "forest": 15,
+    "swamp": 5,
+    "grove": 15,
+    "mushroom": 15,
+    "beach": 20,
+    "shore": 25
+  },
+  "biome_overrides": {
+    "badlands": {
+      "quality_min": 50.0,
+      "quality_max": 150.0,
+      "min_y": 0,
+      "max_y": 40,
+      "max_miners_per_node": 3,
+      "surface_spawn": true,
+      "placement_attempts": 1,
+      "min_spacing_blocks": 200
+    },
+    "peak": {
+      "quality_min": 40.0,
+      "quality_max": 160.0,
+      "min_y": -40,
+      "max_y": 40,
+      "max_miners_per_node": 1,
+      "surface_spawn": false,
+      "placement_attempts": 3,
+      "min_spacing_blocks": 140
+    }
+  },
+  "min_nodes_per_chunk": 2,
+  "max_nodes_per_chunk": 3,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 140,
+  "placement_attempts": 2,
+  "cluster_radius": 3,
+  "scatter_count": 8,
+  "surface_spawn": true,
+  "min_y": 0,
+  "max_y": 63
+}

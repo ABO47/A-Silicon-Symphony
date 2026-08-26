@@ -1,0 +1,40 @@
+{
+  "tools": [
+    {
+      "item": "minecraft:wooden_pickaxe",
+      "extract_amount": 1,
+      "cooldown_ticks": 60,
+      "durability_cost": 2
+    },
+    {
+      "item": "minecraft:stone_pickaxe",
+      "extract_amount": 1,
+      "cooldown_ticks": 50,
+      "durability_cost": 2
+    },
+    {
+      "item": "minecraft:iron_pickaxe",
+      "extract_amount": 1,
+      "cooldown_ticks": 40,
+      "durability_cost": 1
+    },
+    {
+      "item": "minecraft:golden_pickaxe",
+      "extract_amount": 1,
+      "cooldown_ticks": 30,
+      "durability_cost": 3
+    },
+    {
+      "item": "minecraft:diamond_pickaxe",
+      "extract_amount": 1,
+      "cooldown_ticks": 20,
+      "durability_cost": 1
+    },
+    {
+      "item": "minecraft:netherite_pickaxe",
+      "extract_amount": 1,
+      "cooldown_ticks": 10,
+      "durability_cost": 1
+    }
+  ]
+}

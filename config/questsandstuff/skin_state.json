@@ -1,0 +1,15 @@
+{
+  "skin_edit_selected_target": "",
+  "skin_fill_overrides": {
+    "quest:quests_tools_btn": "pics/button_1.png",
+    "quest:quests_blueprint_btn": "pics/button_1.png",
+    "quest:quests_chapter": "pics/empty.png",
+    "quest:quests_editor_btn": "pics/button_1.png",
+    "quest:quests_claim_all_btn": "pics/button_1.png",
+    "quest:quests_canvas": "pics/empty.png",
+    "quest:quests_search": "pics/searchbar_1.png",
+    "quest:root": "center|pics/base.png",
+    "quest:home_btn": "pics/button_1.png",
+    "quest:quests_chapter_search": "pics/searchbar_2.png"
+  }
+}

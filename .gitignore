@@ -15,3 +15,12 @@ usercache.json
 usernamecache.json
 local/
 screenshots/
+data/
+xaero/
+XaeroWaypoints_BACKUP240807/
+
+*.jar
+*.log
+*.outdated
+
+rhino.local.properties

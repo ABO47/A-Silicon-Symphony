@@ -1,0 +1,35 @@
+{
+  "scanner": {
+    "scannerRadiusCap": 512,
+    "scannerMaxResults": 6,
+    "scannerCooldownTicks": 40,
+    "scannerPulseRangeBlocks": 224,
+    "scannerPulseSpeedBlocksPerSec": 48.0,
+    "scannerPulseWidthBlocks": 12,
+    "scannerQualityPreset": 2,
+    "experimentalScannerVisualMode": 1,
+    "scannerHolographicWidthBlocks": 100,
+    "scannerHolographicScanlineStrength": 0.0,
+    "scannerScanSoundEnabled": true,
+    "scannerScanSoundVolume": 0.85,
+    "scannerScanSoundPitch": 1.08,
+    "scannerPingSoundEnabled": true,
+    "scannerPingSoundVolume": 0.35,
+    "scannerPingSoundPitch": 1.32
+  },
+  "bioScan": {
+    "bioScanDurationMs": 1000,
+    "bioScanDrainMultiplier": 2.4,
+    "bioScanCooldownTicks": 40,
+    "bioScanRayStyle": 1.15,
+    "bioScanHideNonMobs": true,
+    "bioScanHiddenEntities": []
+  },
+  "worldgen": {
+    "vanillaOresEnabled": false,
+    "disabledNodeTypes": []
+  },
+  "debug": {
+    "debugLogging": false
+  }
+}

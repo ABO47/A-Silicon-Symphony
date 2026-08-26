@@ -34,7 +34,7 @@ modpackMode = false
 
   # Value must be greater than 0
   verticalMargin = 12
-  shadow = true
+  shadow = false
 
 [fog]
   # Fog rendering and the sky blue band

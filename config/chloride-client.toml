@@ -18,7 +18,7 @@ modpackMode = false
 [fpsDisplay]
   # FPS and system details overlay
   # Accepted values are: [OFF, SIMPLE, ADVANCED]
-  mode = "SIMPLE"
+  mode = "OFF"
 
   # Accepted values are: [LEFT, CENTER, RIGHT]
   align = "LEFT"

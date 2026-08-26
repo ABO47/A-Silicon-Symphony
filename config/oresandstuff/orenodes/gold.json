@@ -1,0 +1,80 @@
+{
+  "id": "oresandstuff:gold",
+  "name": "Gold Node",
+  "output_item": "minecraft:raw_gold",
+  "drops": {
+    "minecraft:raw_gold": 100,
+    "minecraft:stone": 100,
+    "minecraft:deepslate": 100
+  },
+  "enabled": true,
+  "hardness": 50.0,
+  "base_rate_per_second": 0.5,
+  "scanner_color": "#F2C94C",
+  "scanner_radius": 192,
+  "quality_min": 80.0,
+  "quality_max": 160.0,
+  "quality_visuals": [
+    {
+      "min": 80.0,
+      "max": 120.0,
+      "node_block": "minecraft:stone",
+      "visual_block": "minecraft:gold_ore"
+    },
+    {
+      "min": 120.0,
+      "max": 160.0,
+      "node_block": "minecraft:deepslate",
+      "visual_block": "minecraft:deepslate_gold_ore"
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": {
+    "windswept": 45,
+    "desert": 40,
+    "badlands": 45,
+    "peak": 35,
+    "snowy_slopes": 30,
+    "savanna": 15,
+    "plains": 15,
+    "jungle": 10,
+    "grove": 10,
+    "mushroom": 10,
+    "beach": 15,
+    "shore": 10
+  },
+  "biome_overrides": {
+    "windswept": {
+      "quality_min": 80.0,
+      "quality_max": 160.0,
+      "min_y": 0,
+      "max_y": 70,
+      "max_miners_per_node": 1,
+      "surface_spawn": true,
+      "placement_attempts": 1,
+      "min_spacing_blocks": 200
+    },
+    "jungle": {
+      "quality_min": 20.0,
+      "quality_max": 90.0,
+      "min_y": -40,
+      "max_y": 30,
+      "max_miners_per_node": 1,
+      "surface_spawn": false,
+      "placement_attempts": 2,
+      "min_spacing_blocks": 150
+    }
+  },
+  "min_nodes_per_chunk": 2,
+  "max_nodes_per_chunk": 3,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 150,
+  "placement_attempts": 2,
+  "cluster_radius": 2,
+  "scatter_count": 8,
+  "surface_spawn": true,
+  "min_y": 0,
+  "max_y": 63
+}

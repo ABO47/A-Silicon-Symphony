@@ -1,0 +1,73 @@
+{
+  "id": "oresandstuff:nether_gold",
+  "name": "Nether Gold Node",
+  "output_item": "minecraft:gold_nugget",
+  "drops": {
+    "minecraft:gold_nugget": 100,
+    "minecraft:netherrack": 100,
+    "minecraft:nether_gold_ore": 100
+  },
+  "enabled": true,
+  "hardness": 60.0,
+  "base_rate_per_second": 0.5,
+  "scanner_color": "#E8B01C",
+  "scanner_radius": 192,
+  "quality_min": 60.0,
+  "quality_max": 160.0,
+  "quality_visuals": [
+    {
+      "min": 60.0,
+      "max": 110.0,
+      "node_block": "minecraft:netherrack",
+      "visual_block": "minecraft:nether_gold_ore"
+    },
+    {
+      "min": 110.0,
+      "max": 160.0,
+      "node_block": "minecraft:nether_gold_ore",
+      "visual_block": "minecraft:gold_block"
+    }
+  ],
+  "dimensions": [
+    "minecraft:the_nether"
+  ],
+  "biomes": {
+    "nether_wastes": 55,
+    "basalt_deltas": 45,
+    "soul_sand_valley": 15,
+    "crimson_forest": 10,
+    "warped_forest": 10
+  },
+  "biome_overrides": {
+    "nether_wastes": {
+      "quality_min": 60.0,
+      "quality_max": 160.0,
+      "min_y": 0,
+      "max_y": 70,
+      "max_miners_per_node": 2,
+      "surface_spawn": true,
+      "placement_attempts": 1,
+      "min_spacing_blocks": 200
+    },
+    "crimson_forest": {
+      "quality_min": 20.0,
+      "quality_max": 110.0,
+      "min_y": 0,
+      "max_y": 40,
+      "max_miners_per_node": 1,
+      "surface_spawn": false,
+      "placement_attempts": 3,
+      "min_spacing_blocks": 140
+    }
+  },
+  "min_nodes_per_chunk": 2,
+  "max_nodes_per_chunk": 3,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 130,
+  "placement_attempts": 2,
+  "cluster_radius": 3,
+  "scatter_count": 8,
+  "surface_spawn": true,
+  "min_y": 0,
+  "max_y": 63
+}

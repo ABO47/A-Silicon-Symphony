@@ -1,0 +1,88 @@
+{
+  "id": "oresandstuff:coal",
+  "name": "Coal Node",
+  "output_item": "minecraft:coal",
+  "drops": {
+    "minecraft:coal": 100,
+    "minecraft:stone": 100,
+    "minecraft:deepslate": 100
+  },
+  "enabled": true,
+  "hardness": 60.0,
+  "base_rate_per_second": 0.9,
+  "scanner_color": "#2E2E2E",
+  "scanner_radius": 192,
+  "quality_min": 60.0,
+  "quality_max": 160.0,
+  "quality_visuals": [
+    {
+      "min": 60.0,
+      "max": 110.0,
+      "node_block": "minecraft:stone",
+      "visual_block": "minecraft:coal_ore"
+    },
+    {
+      "min": 110.0,
+      "max": 160.0,
+      "node_block": "minecraft:deepslate",
+      "visual_block": "minecraft:deepslate_coal_ore"
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": {
+    "swamp": 55,
+    "forest": 45,
+    "plains": 40,
+    "jungle": 30,
+    "savanna": 20,
+    "snowy": 25,
+    "windswept": 20,
+    "meadow": 25,
+    "desert": 10,
+    "ice": 25,
+    "grove": 30,
+    "mushroom": 25,
+    "beach": 10,
+    "river": 15
+  },
+  "biome_overrides": {
+    "swamp": {
+      "quality_min": 60.0,
+      "quality_max": 160.0,
+      "min_y": 0,
+      "max_y": 40,
+      "max_miners_per_node": 2,
+      "surface_spawn": true,
+      "placement_attempts": 1,
+      "min_spacing_blocks": 200
+    },
+    "mushroom": {
+      "quality_min": 30.0,
+      "quality_max": 120.0,
+      "min_y": -50,
+      "max_y": 10,
+      "max_miners_per_node": 1,
+      "surface_spawn": false,
+      "placement_attempts": 2,
+      "min_spacing_blocks": 160
+    },
+    "desert": {
+      "quality_min": 20.0,
+      "quality_max": 90.0,
+      "min_y": 0,
+      "max_y": 50
+    }
+  },
+  "min_nodes_per_chunk": 3,
+  "max_nodes_per_chunk": 4,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 120,
+  "placement_attempts": 2,
+  "cluster_radius": 3,
+  "scatter_count": 8,
+  "surface_spawn": true,
+  "min_y": 0,
+  "max_y": 63
+}

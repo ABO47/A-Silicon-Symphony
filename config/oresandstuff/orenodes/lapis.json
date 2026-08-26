@@ -1,0 +1,76 @@
+{
+  "id": "oresandstuff:lapis",
+  "name": "Lapis Node",
+  "output_item": "minecraft:lapis_lazuli",
+  "drops": {
+    "minecraft:lapis_lazuli": 100,
+    "minecraft:stone": 100,
+    "minecraft:deepslate": 100
+  },
+  "enabled": true,
+  "hardness": 100.0,
+  "base_rate_per_second": 0.35,
+  "scanner_color": "#2E6BD8",
+  "scanner_radius": 192,
+  "quality_min": 50.0,
+  "quality_max": 140.0,
+  "quality_visuals": [
+    {
+      "min": 50.0,
+      "max": 95.0,
+      "node_block": "minecraft:stone",
+      "visual_block": "minecraft:lapis_ore"
+    },
+    {
+      "min": 95.0,
+      "max": 140.0,
+      "node_block": "minecraft:deepslate",
+      "visual_block": "minecraft:deepslate_lapis_ore"
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": {
+    "desert": 45,
+    "badlands": 30,
+    "savanna": 30,
+    "plains": 20,
+    "jungle": 10,
+    "ocean": 25,
+    "cave": 30,
+    "river": 10
+  },
+  "biome_overrides": {
+    "cave": {
+      "quality_min": 50.0,
+      "quality_max": 150.0,
+      "min_y": -60,
+      "max_y": -10,
+      "max_miners_per_node": 2,
+      "surface_spawn": false,
+      "placement_attempts": 1,
+      "min_spacing_blocks": 220
+    },
+    "desert": {
+      "quality_min": 60.0,
+      "quality_max": 120.0,
+      "min_y": -60,
+      "max_y": -20,
+      "max_miners_per_node": 1,
+      "surface_spawn": true,
+      "placement_attempts": 2,
+      "min_spacing_blocks": 180
+    }
+  },
+  "min_nodes_per_chunk": 1,
+  "max_nodes_per_chunk": 2,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 160,
+  "placement_attempts": 2,
+  "cluster_radius": 2,
+  "scatter_count": 6,
+  "surface_spawn": false,
+  "min_y": -60,
+  "max_y": -10
+}

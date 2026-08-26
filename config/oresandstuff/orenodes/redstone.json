@@ -1,0 +1,77 @@
+{
+  "id": "oresandstuff:redstone",
+  "name": "Redstone Node",
+  "output_item": "minecraft:redstone",
+  "drops": {
+    "minecraft:redstone": 100,
+    "minecraft:stone": 100,
+    "minecraft:deepslate": 100
+  },
+  "enabled": true,
+  "hardness": 90.0,
+  "base_rate_per_second": 0.4,
+  "scanner_color": "#D12222",
+  "scanner_radius": 192,
+  "quality_min": 50.0,
+  "quality_max": 140.0,
+  "quality_visuals": [
+    {
+      "min": 50.0,
+      "max": 95.0,
+      "node_block": "minecraft:stone",
+      "visual_block": "minecraft:redstone_ore"
+    },
+    {
+      "min": 95.0,
+      "max": 140.0,
+      "node_block": "minecraft:deepslate",
+      "visual_block": "minecraft:deepslate_redstone_ore"
+    }
+  ],
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+  "biomes": {
+    "badlands": 45,
+    "desert": 20,
+    "peak": 20,
+    "windswept": 15,
+    "plains": 10,
+    "ocean": 15,
+    "cave": 35,
+    "deep_dark": 45,
+    "river": 10
+  },
+  "biome_overrides": {
+    "cave": {
+      "quality_min": 50.0,
+      "quality_max": 160.0,
+      "min_y": -60,
+      "max_y": -5,
+      "max_miners_per_node": 2,
+      "surface_spawn": false,
+      "placement_attempts": 2,
+      "min_spacing_blocks": 240
+    },
+    "deep_dark": {
+      "quality_min": 80.0,
+      "quality_max": 180.0,
+      "min_y": -60,
+      "max_y": -10,
+      "max_miners_per_node": 3,
+      "surface_spawn": false,
+      "placement_attempts": 1,
+      "min_spacing_blocks": 200
+    }
+  },
+  "min_nodes_per_chunk": 1,
+  "max_nodes_per_chunk": 2,
+  "max_miners_per_node": 1,
+  "min_spacing_blocks": 160,
+  "placement_attempts": 2,
+  "cluster_radius": 2,
+  "scatter_count": 6,
+  "surface_spawn": false,
+  "min_y": -60,
+  "max_y": -10
+}

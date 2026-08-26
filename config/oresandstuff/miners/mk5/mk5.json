@@ -1,0 +1,10 @@
+{
+  "id": "mk5",
+  "display_name": "Miner Mk5",
+  "fe_per_tick": 280,
+  "buffer_fe": 280000,
+  "max_receive_fe": 1120,
+  "rate_multiplier": 7.0,
+  "model": "miner",
+  "texture": ""
+}

@@ -22,5 +22,6 @@ XaeroWaypoints_BACKUP240807/
 *.jar
 *.log
 *.outdated
+*.old
 
 rhino.local.properties

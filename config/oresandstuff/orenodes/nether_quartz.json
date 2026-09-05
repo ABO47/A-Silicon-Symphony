@@ -7,7 +7,7 @@
     "minecraft:netherrack": 100,
     "minecraft:nether_quartz_ore": 100
   },
-  "enabled": true,
+  "enabled": false,
   "hardness": 80.0,
   "base_rate_per_second": 0.7,
   "scanner_color": "#E8DFD6",

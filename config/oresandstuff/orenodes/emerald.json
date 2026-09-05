@@ -7,7 +7,7 @@
     "minecraft:stone": 100,
     "minecraft:end_stone": 100
   },
-  "enabled": true,
+  "enabled": false,
   "hardness": 180.0,
   "base_rate_per_second": 0.25,
   "scanner_color": "#3ECF6E",

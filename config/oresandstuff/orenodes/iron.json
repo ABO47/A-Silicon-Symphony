@@ -7,7 +7,7 @@
     "minecraft:stone": 100,
     "minecraft:deepslate": 100
   },
-  "enabled": true,
+  "enabled": false,
   "hardness": 80.0,
   "base_rate_per_second": 0.6,
   "scanner_color": "#D8D8D8",

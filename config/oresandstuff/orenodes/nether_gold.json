@@ -7,7 +7,7 @@
     "minecraft:netherrack": 100,
     "minecraft:nether_gold_ore": 100
   },
-  "enabled": true,
+  "enabled": false,
   "hardness": 60.0,
   "base_rate_per_second": 0.5,
   "scanner_color": "#E8B01C",

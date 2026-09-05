@@ -14,10 +14,10 @@
   },
   "canvas": {
     "fullScreenMode": false,
-    "minimap": true,
+    "minimap": false,
     "visualMinimap": true,
-    "readOnlyCanvasFocus": true,
-    "questEffectIcons": false,
+    "readOnlyCanvasFocus": false,
+    "questEffectIcons": true,
     "miniNotifications": false
   },
   "rewards": {
@@ -38,8 +38,8 @@
     "protectMobGriefing": true,
     "protectPvp": true,
     "protectFire": true,
-    "maxClaimedChunks": 100,
-    "maxForceLoadedChunks": 100
+    "maxClaimedChunks": 9999,
+    "maxForceLoadedChunks": 9999
   },
   "itemLocks": {
     "blockUse": false,

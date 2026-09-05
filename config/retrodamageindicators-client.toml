@@ -22,7 +22,7 @@
 	health_separator = true
 	#How long after mousing over an entity the hud damage indicator remains on screen, in game ticks.
 	#Range: 0 ~ 1200
-	hud_linger_time = 30
+	hud_linger_time = 1
 	#The relative size of hud indicator.
 	#Range: 0.0 ~ 10.0
 	hud_indicator_size = 0.75

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "mod": {
     "id": "questsandstuff",
-    "version": "0.7.4-alpha"
+    "version": "0.7.9-alpha"
   },
   "quest_schema_version": 1,
   "pack": {
@@ -30,7 +30,7 @@
     },
     {
       "id": "questsandstuff",
-      "version": "0.7.4-alpha"
+      "version": "0.7.9-alpha"
     }
   ],
   "optional_mods": []

@@ -1,0 +1,21 @@
+{
+  "completion": {
+    "x": 225,
+    "y": 241,
+    "scale": 149,
+    "height_scale": 147,
+    "background": "",
+    "opacity": 100,
+    "show_borders": true
+  },
+  "pinned": {
+    "x": 1,
+    "y": 1,
+    "scale": 104,
+    "height_scale": 115,
+    "background": "",
+    "opacity": 100,
+    "show_borders": true
+  },
+  "snapToGrid": true
+}

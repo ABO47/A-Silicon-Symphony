@@ -1,0 +1,73 @@
+{
+  "tasks_order": [
+    "task_item_0001",
+    "task_item_0002"
+  ],
+  "rewards_order": [],
+  "tasks": {
+    "task_item_0001": {
+      "title": "",
+      "icon": "",
+      "amount": 1,
+      "collection": "automatic",
+      "id": "task_item_0001",
+      "item": "oresandstuff:scanner",
+      "tag": "",
+      "nbt": "",
+      "type": "questsandstuff:item"
+    },
+    "task_item_0002": {
+      "title": "",
+      "icon": "",
+      "amount": 1,
+      "collection": "automatic",
+      "id": "task_item_0002",
+      "item": "questsandstuff:quest_tablet",
+      "tag": "",
+      "nbt": "",
+      "type": "questsandstuff:item"
+    }
+  },
+  "rewards": {},
+  "hidden_connections": [],
+  "connection_textures": {},
+  "connection_texture_spacings": {},
+  "settings": {
+    "auto_claim_rewards": false,
+    "unlock_notification": false,
+    "show_prerequisite_arrow": true,
+    "individual_progress": false,
+    "hidden_mode": "prerequisites_visible",
+    "repeatable": false
+  },
+  "prerequisites": [],
+  "connection_colors": {},
+  "connection_modes": {},
+  "schema": 1,
+  "id": "quest_0001_Welcome",
+  "display": {
+    "visual_hidden": false,
+    "quest_background": "default",
+    "quest_background_grayscale": false,
+    "completion_sound": "minecraft:ui.toast.challenge_complete",
+    "completion_sound_volume": 100,
+    "completion_hud_background": "",
+    "chapters": {
+      "Welcome": {
+        "visible": true,
+        "x": 96,
+        "y": 80,
+        "scale": 9.0
+      }
+    },
+    "icon": "ad_astra:earth_globe",
+    "icon_background": "minecraft:barrier",
+    "title": "Welcome",
+    "subtitle": "",
+    "description": [
+      "@qas_desc_meta:{background:\"default\"}",
+      "@qas_desc_text:{align:\"center\",color:-657929,font_size:28,h:63,id:\"txt_0001\",rotation:0,spans:[{color:-10235513,end:16,start:0,style:\"normal\"}],style:\"normal\",text:\"Welcome to earth\",w:303,x:17,y:1}"
+    ]
+  },
+  "schema_version": 1
+}

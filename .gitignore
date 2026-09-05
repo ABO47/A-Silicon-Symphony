@@ -18,6 +18,9 @@ screenshots/
 data/
 xaero/
 XaeroWaypoints_BACKUP240807/
+temp/
+worldedit/
+fancymenu_data/
 
 *.jar
 *.log

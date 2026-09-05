@@ -1,0 +1,10 @@
+{
+  "minecraft:hay_block": {
+    "status": "DISABLED",
+    "item": "minecraft:hay_block",
+    "count": 1,
+    "name": "Hay Bale",
+    "wasModified": false,
+    "machineUid": "minecraft:blasting"
+  }
+}

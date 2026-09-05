@@ -21,6 +21,14 @@
     "curseForgeHash": 2692856638,
     "modrinthHash": "c481aee737693129d81682c916faacaa872773d0"
   },
+  "alexsmobs-1.22.9.jar": {
+    "jarName": "alexsmobs-1.22.9.jar",
+    "modId": "alexsmobs",
+    "name": "Alex\u0027s Mobs",
+    "version": "1.22.9",
+    "curseForgeHash": 1000930585,
+    "modrinthHash": "dbf93d2f1da19e16739e91e8ea0fc6f4bc2f228f"
+  },
   "almanac-1.20.x-forge-1.0.2.jar": {
     "jarName": "almanac-1.20.x-forge-1.0.2.jar",
     "modId": "almanac",
@@ -37,6 +45,22 @@
     "curseForgeHash": 3765359326,
     "modrinthHash": "a82792943ddb3e764ed3bc27db72099e295daea8"
   },
+  "Aquaculture-1.20.1-2.5.7.jar": {
+    "jarName": "Aquaculture-1.20.1-2.5.7.jar",
+    "modId": "aquaculture",
+    "name": "Aquaculture 2",
+    "version": "2.5.7",
+    "curseForgeHash": 3842956886,
+    "modrinthHash": "308a0e92401e29bdb9cae24532a3b07a1bf6e757"
+  },
+  "aquaculturedelight-1.1.0-forge-1.20.1.jar": {
+    "jarName": "aquaculturedelight-1.1.0-forge-1.20.1.jar",
+    "modId": "aquaculturedelight",
+    "name": "Aquaculture Delight",
+    "version": "1.1.0",
+    "curseForgeHash": 2217337962,
+    "modrinthHash": "6ae62b5e765d9e4e303ba975cc45edf3a354346e"
+  },
   "architectury-9.2.14-forge.jar": {
     "jarName": "architectury-9.2.14-forge.jar",
     "modId": "architectury",
@@ -52,6 +76,14 @@
     "version": "7.3.42",
     "curseForgeHash": 3311184086,
     "modrinthHash": "90340ba512182570146587d72122cb0faa608116"
+  },
+  "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar": {
+    "jarName": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+    "modId": "biomesoplenty",
+    "name": "Biomes O\u0027 Plenty",
+    "version": "19.0.0.96",
+    "curseForgeHash": 3353513849,
+    "modrinthHash": "f6ffd20b9825c4a69d93af7caed701a60bf804b5"
   },
   "Bookshelf-Forge-1.20.1-20.2.15.jar": {
     "jarName": "Bookshelf-Forge-1.20.1-20.2.15.jar",
@@ -101,6 +133,14 @@
     "curseForgeHash": 2849438660,
     "modrinthHash": "b42ae912055a962aeae80b97f08ee3517542026a"
   },
+  "citadel-2.6.3-1.20.1.jar": {
+    "jarName": "citadel-2.6.3-1.20.1.jar",
+    "modId": "citadel",
+    "name": "Citadel",
+    "version": "2.6.3",
+    "curseForgeHash": 1762571121,
+    "modrinthHash": "fb0b1fa96ce28e4be77b38ad95d83c3da7ec8316"
+  },
   "cloth-config-11.1.136-forge.jar": {
     "jarName": "cloth-config-11.1.136-forge.jar",
     "modId": "cloth_config",
@@ -117,6 +157,14 @@
     "curseForgeHash": 1556873767,
     "modrinthHash": "8809c7aa6c71389e9c59abfe5def52c1cb8d4f1c"
   },
+  "ColdSweat-2.4.2.jar": {
+    "jarName": "ColdSweat-2.4.2.jar",
+    "modId": "cold_sweat",
+    "name": "Cold Sweat",
+    "version": "2.4.2",
+    "curseForgeHash": 261285111,
+    "modrinthHash": "f5e203dbdca07470d29d872348e3233cd698f3a9"
+  },
   "collective-1.20.1-8.39.jar": {
     "jarName": "collective-1.20.1-8.39.jar",
     "modId": "collective",
@@ -124,6 +172,14 @@
     "version": "8.39",
     "curseForgeHash": 2974885765,
     "modrinthHash": "4622cf120fd3eb82972dc6634d6a5910d04e3c91"
+  },
+  "Compat_AlexsMobs-Naturalist.jar": {
+    "jarName": "Compat_AlexsMobs-Naturalist.jar",
+    "modId": "alexsmobsnaturalistcompat",
+    "name": "Alex\u0027s Mobs - Naturalist Compat",
+    "version": "1.3.0",
+    "curseForgeHash": 1230363161,
+    "modrinthHash": "b94eb0e5e73b41dea689b75fe17018c96628c649"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -245,6 +301,14 @@
     "curseForgeHash": 517770366,
     "modrinthHash": "23b7544ab3ebd1ab9c88255434ff9dc7f217766b"
   },
+  "FarmersDelight-1.20.1-1.3.4.jar": {
+    "jarName": "FarmersDelight-1.20.1-1.3.4.jar",
+    "modId": "farmersdelight",
+    "name": "Farmer\u0027s Delight",
+    "version": "1.20.1-1.3.4",
+    "curseForgeHash": 1479167034,
+    "modrinthHash": "26f615fd35f652021f5b0f1cba68afa7d578fe15"
+  },
   "FastItemFrames-v20.1.5-1.20.1-Forge.jar": {
     "jarName": "FastItemFrames-v20.1.5-1.20.1-Forge.jar",
     "modId": "fastitemframes",
@@ -284,6 +348,22 @@
     "version": "1.5.2",
     "curseForgeHash": 3197800716,
     "modrinthHash": "d90de61cab08194a606246f1ac7677cebfcb7c59"
+  },
+  "geckolib-forge-1.20.1-4.8.4.jar": {
+    "jarName": "geckolib-forge-1.20.1-4.8.4.jar",
+    "modId": "geckolib",
+    "name": "GeckoLib 4",
+    "version": "4.8.4",
+    "curseForgeHash": 252446230,
+    "modrinthHash": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0"
+  },
+  "GlitchCore-forge-1.20.1-0.0.1.1.jar": {
+    "jarName": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+    "modId": "glitchcore",
+    "name": "GlitchCore",
+    "version": "0.0.1.1",
+    "curseForgeHash": 3493694372,
+    "modrinthHash": "bba0b08fe76b28b35243fee53f99d54a18153b53"
   },
   "gravestone-forge-1.20.1-1.0.35.jar": {
     "jarName": "gravestone-forge-1.20.1-1.0.35.jar",
@@ -473,6 +553,14 @@
     "version": "0.1.0-alpha",
     "curseForgeHash": 435958483,
     "modrinthHash": "a058547a9d396af2ceab542e9eec2e06c7a5ab8a"
+  },
+  "naturalist-5.0pre4+forge-1.20.1.jar": {
+    "jarName": "naturalist-5.0pre4+forge-1.20.1.jar",
+    "modId": "naturalist",
+    "name": "Naturalist",
+    "version": "5.0pre4",
+    "curseForgeHash": 1595601932,
+    "modrinthHash": "5aed5b241ee524b9473cf156053545904eb74517"
   },
   "natures_spirit-2.2.5-1.20.1.jar": {
     "jarName": "natures_spirit-2.2.5-1.20.1.jar",
@@ -713,6 +801,14 @@
     "version": "3.0.1.10",
     "curseForgeHash": 2523949204,
     "modrinthHash": "b3dbaf1aac31601b9efb19e4c67646750041968a"
+  },
+  "Terralith_1.20.x_v2.5.4.jar": {
+    "jarName": "Terralith_1.20.x_v2.5.4.jar",
+    "modId": "terralith",
+    "name": "Terralith",
+    "version": "2.5.4",
+    "curseForgeHash": 1222598727,
+    "modrinthHash": "79e1409b8db4ce86df9d6d6730f09c4bd8860a30"
   },
   "tia-1.20-1.1-forge.jar": {
     "jarName": "tia-1.20-1.1-forge.jar",

@@ -21,6 +21,7 @@ XaeroWaypoints_BACKUP240807/
 temp/
 worldedit/
 fancymenu_data/
+docs/
 
 *.jar
 *.log
